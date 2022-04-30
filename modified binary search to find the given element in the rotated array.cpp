@@ -37,6 +37,7 @@ int mbs(int arr[], int l, int h, int k)
     {
         // endh if condtion la k vandhy arr[1] oda greater ah irukkum aprm mid oda kammiya irukunam, apa dhan kuduthurukua element
         // adhkulla irukkum give key is 6 apa adhy first sub array oda mid la dhan irukku
+        
         if (k >= arr[1] && k <= arr[mid])
 
             // first if condtion satisfy achi na namma recursive function pandrom, eppa kuduthurukua array va namma two subarray va prikurom
